@@ -1,0 +1,48 @@
+
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a{
+    color: #a5746a !important;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+   margin-right: 29px;
+    margin-left: -28px;
+}
+.navbar-nav li a:hover{
+    background-color: white;
+}
+.mob-logo{
+    display: none;
+}
+@media(max-width: 600px){
+
+ .mob-logo{
+    margin-left: -1px;
+    width: 145px;
+    height: 68px;
+    display: block;
+}
+ .web-logo{
+      display: none;
+}
+.navbar-nav li a{
+    color: #a5746a !important;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: -3px;
+    
+}
+}
+.bg-blue{
+     background-color:#000000d1;
+}
+ @media(max-width: 600px){
+    .bg-blue{
+          background-color:#000000d1;
+}
+}
